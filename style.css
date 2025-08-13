@@ -1,0 +1,854 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: Gagalin;
+    src: url("fonts/Gagalin.otf") format("opentype");
+}
+
+body {
+    background-color: rgb(248, 250, 253);
+    font-family: Poppins, sans-serif;
+}
+
+.layout {
+    max-width: 1000px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 100px 30px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.review {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.review span {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.review img {
+    width: 25px;
+}
+
+h6 {
+    margin: 0px;
+    font-size: 20px;
+    color: red;
+}
+
+h1 {
+    margin-bottom: 10px;
+    max-width: 620px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 55px;
+}
+
+.layout p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    font-style: italic;
+    margin: 10px 0px;
+}
+
+.btn {
+    background-color: rgb(0, 151, 225);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    width: 800px;
+    text-align: center;
+    color: white;
+    padding: 15px 100px;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.trustpilot {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.trustpilot img {
+    width: 120px;
+}
+
+.trustpilot span {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+    text-align: center;
+}
+
+.text-shadow {
+    text-shadow: rgba(116, 114, 114, 0.26) 2px 2px 2px;
+}
+
+h4 {
+    margin: 0px 0px 10px;
+    width: 310px;
+    text-align: center;
+}
+
+.first-review {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 80px;
+}
+
+.first-review img {
+    max-width: 100%;
+    width: 20px;
+}
+
+.review-stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 0px 0px 20px;
+}
+
+h3 {
+    font-family: Poppins;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 20px 0px 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.review-icon img {
+    width: 20px;
+    fill: rgb(179, 179, 95);
+}
+
+.review-stars img {
+    filter: brightness(0) saturate(100%) sepia(100%) hue-rotate(10deg) saturate(500%) brightness(90%);
+    width: 24px;
+    height: 24px;
+}
+
+.star {
+    fill: rgb(245, 197, 24);
+    width: 30px;
+    height: 30px;
+}
+
+.btn-layout {
+    max-width: 1000px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.btn-layout a {
+    background: linear-gradient(360deg, rgb(0, 151, 225) 41%, rgb(34, 160, 214) 52%, rgb(174, 221, 240) 100%, rgb(255, 253, 247) 100%, rgb(230, 245, 236) 100%);
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 15px 200px;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.layout-two {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 100px 30px;
+    box-sizing: border-box;
+}
+
+.badge {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.badge img {
+    max-width: 100px;
+}
+
+.badge span {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banner-one {
+    max-width: 100%;
+    width: 550px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.rich-text {
+    margin-bottom: 10px;
+    font-size: 34px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.text {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.feedback {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    align-self: flex-start;
+    max-width: 600px;
+}
+
+.customer img {
+    border-radius: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 90px;
+    object-fit: cover;
+}
+
+.feedback-box img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feeback-content {
+    background-color: rgb(240, 241, 242);
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.feeback-content h5 {
+    margin: 0px;
+    font-size: 22px;
+}
+
+.feeback-content p {
+    font-size: 18px;
+}
+
+.customer-review-layout {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 30px 10px;
+    gap: 30px;
+}
+
+.customer-review {
+    border-radius: 12px;
+    width: 450px;
+    box-sizing: border-box;
+}
+
+.customer-review img {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+    border-radius: 12px;
+}
+
+.date {
+    font-size: 14px;
+    color: rgb(83, 83, 83);
+    margin: -10px 0px 0px;
+    padding: 0px 15px;
+}
+
+.five-star-review {
+    max-width: 100%;
+    display: flex;
+    gap: 3px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding: 0px 10px;
+}
+
+.five-star-review img {
+    max-width: 22px;
+}
+
+.review-text {
+    font-size: 17px;
+    line-height: 25px;
+    color: rgb(28, 28, 28);
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-align: start;
+    padding: 10px 10px 0px;
+}
+
+.customer-review strong {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 10px;
+}
+
+.customer-content {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    background-color: rgb(240, 241, 242);
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.layout-three {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 100px 30px;
+    box-sizing: border-box;
+}
+
+.logo {
+    max-width: 100%;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.key-featuers {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 100px 30px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+.key-featuers p {
+    text-align: left;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.key-featuers h2 {
+    text-align: left;
+    margin-top: -10px;
+}
+
+.price {
+    margin-bottom: -50px;
+}
+
+.price p {
+    display: inline-block;
+    font-size: 24px;
+}
+
+.ads {
+    color: red;
+    padding: 0px 5px;
+    display: inline;
+}
+
+.img-banner {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.img-banner img {
+    max-width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.img-banner p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.customer-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.customer-data img {
+    max-width: 100%;
+    width: 70px;
+    object-fit: cover;
+}
+
+.data-content {
+    padding: 10px 5px;
+}
+
+.full-width-line {
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    margin: 20px 0px;
+}
+
+strong {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* I can now continue with your new-img-banner, table, stickyAddToCart, etc. — all without the earlier repetitions */
+
+
+.trustpilot {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.trustpilot img {
+    width: 120px;
+}
+
+.trustpilot span {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0px;
+    text-align: center;
+}
+
+.feedback-box img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feeback-content {
+    background-color: rgb(240, 241, 242);
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.feeback-content h5 {
+    margin: 0px;
+    font-size: 22px;
+}
+
+.feeback-content p {
+    font-size: 18px;
+}
+
+.customer-review-layout {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.customer-review-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 30px 10px;
+    gap: 30px;
+}
+
+.customer-review {
+    border-radius: 12px;
+    width: 450px;
+    box-sizing: border-box;
+}
+
+.customer-review img {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+    border-radius: 12px;
+}
+
+.date {
+    font-size: 14px;
+    color: rgb(83, 83, 83);
+    margin: -10px 0px 0px;
+    padding: 0px 15px;
+}
+
+.five-star-review {
+    max-width: 100%;
+    display: flex;
+    gap: 3px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding: 0px 10px;
+}
+
+.five-star-review img {
+    max-width: 22px;
+}
+
+.review-text {
+    font-size: 17px;
+    line-height: 25px;
+    color: rgb(28, 28, 28);
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-align: start;
+    padding: 10px 10px 0px;
+}
+
+.customer-review strong {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 10px;
+}
+
+.customer-content {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    background-color: rgb(240, 241, 242);
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+.layout-three {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 100px 30px;
+    box-sizing: border-box;
+}
+
+.logo {
+    max-width: 100%;
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.key-featuers {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 100px 30px;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+.key-featuers p {
+    text-align: left;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.key-featuers h2 {
+    text-align: left;
+    margin-top: -10px;
+}
+
+.price {
+    margin-bottom: -50px;
+}
+
+.price p {
+    display: inline-block;
+    font-size: 24px;
+}
+
+.ads {
+    color: red;
+    padding: 0px 5px;
+    display: inline;
+}
+
+.new-img-banner {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    max-width: 100%;
+}
+
+
+
+.new-img-banner h2 {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.new-img-banner p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.new-img-banner {
+    max-width: 100%;
+    width: 500px;
+}
+
+.comparison-table {
+}
+
+.table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.table .row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.table .row div {
+    padding: 10px;
+}
+
+.table .row .col-1 {
+    flex-basis: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table .row .col-2 {
+    flex-basis: 25%;
+    width: 25%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 39, 104);
+    color: white;
+}
+
+.table .row .col-3 {
+    flex-basis: 25%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.table .row img {
+    height: 75px;
+}
+
+.table .row strong {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.col-1 p {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.border-r {
+    border-radius: 30px 30px 0px 0px;
+}
+
+.btr {
+    border-radius: 30px 0px 0px;
+}
+
+.bbr {
+    border-radius: 0px 0px 0px 30px;
+}
+
+.brr {
+    border-radius: 0px 0px 30px;
+}
+
+.bb {
+    border-bottom: 1px solid rgba(18, 18, 18, 0.5);
+}
+
+.border-tl {
+    border-top: 1px solid rgba(18, 18, 18, 0.5);
+    border-left: 1px solid rgba(18, 18, 18, 0.5);
+}
+
+.border-t {
+    border-top: 0.5px solid rgba(18, 18, 18, 0.5);
+}
+
+.border-tr {
+    border-top: 1px solid rgba(18, 18, 18, 0.5);
+    border-right: 1px solid rgba(18, 18, 18, 0.5);
+}
+
+.image-with-text {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 100px 30px;
+    box-sizing: border-box;
+}
+
+.image-with-text img {
+    max-width: 100%;
+    width: 600px;
+    margin-top: 40px;
+}
+
+.image-with-text h3 {
+    font-size: 48px;
+    margin: 30px 0px;
+}
+
+.image-with-text p {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0px;
+}
+.cart-layout{
+   max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px ;
+    box-sizing: border-box;
+}
+.stickyAddToCart {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px rgba(154, 149, 149, 0.279);
+    margin-bottom: 0px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.stickyAddToCart .product-img {
+    display: flex;
+    justify-content: center;
+    
+    flex-basis: 50%;
+    max-width: 50%;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.stickyAddToCart .product-img img {
+  max-width: 100%;
+    width: 80px;
+
+}
+
+.stickyAddToCart .info {
+    text-align: left;
+}
+
+.stickyAddToCart .info h4 {
+    text-align: left;
+    margin: 0;
+    font-size: 18px;
+}
+
+.stickyAddToCart .info .price {
+    font-size: 14px;
+}
+
+.stickyAddToCart .info .price .saleprice {
+}
+
+.stickyAddToCart .info .price del {
+    color: red;
+}
+
+.stickyAddToCart .info .price .save {
+    background: black;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 30px;
+}
+
+.stickyAddToCart .cart-btn {
+    flex-grow: 1;
+    flex-basis: 50%;
+    max-width: 50%;
+    text-align: center;
+}
+
+.stickyAddToCart .cart-btn .btn {
+    font-size: 16px;
+    padding: 10px 12px;
+    margin: 0px;
+}
